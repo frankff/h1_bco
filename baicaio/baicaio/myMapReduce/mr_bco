@@ -1,0 +1,7 @@
+import pymongo
+from bson.code import Code
+
+
+map=Code("""
+    function(){emit }
+    """)
